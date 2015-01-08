@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+
+    <data noupdate="0">
+
+      <!-- ir_property -->
+<!--
+      property_account_receivable
+      property_account_payable
+      property_account_expense_categ
+      property_account_income_categ
+
+      delete from ir_property where id > 1;
+-->
+
+<!--
+      account.analytic.line
+          general_account_id ==> 131 ("VENDITE E PRESTAZIONI") (ID: 1)
+          general_account_id ==> 146 ("merci c/acquisti")
+
+      update account_analytic_line set general_account_id = 1;
+      delete from account_account where id > 1
+-->
+
+    </data>
+
+</openerp>
+
